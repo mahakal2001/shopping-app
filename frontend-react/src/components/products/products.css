@@ -1,0 +1,77 @@
+.appbar .bar{
+    margin-top: 60px;
+}
+
+.cards{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.butt{}
+
+.li{
+    
+    width: 25%;
+    height: 750px;
+}
+
+.heading2{
+    text-align: center;
+    margin-top: 150px;
+    padding: 10px;
+}
+
+.tb{
+    text-align: center;
+}
+
+.butt button{
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+    background-color: #096666f8;
+    margin: 10px;
+    border-color: #096666f8;
+    box-shadow: 1px 1px 4px black;
+    cursor: pointer;
+    padding: 5px 3px;
+    
+}
+
+.butt button:hover{
+    background-color: rgb(247, 137, 11);
+}
+
+@media screen and (max-width: 480px){
+    .li{
+        width: 50%;
+        height: 400px;
+    }
+    .appbar .butt{
+        font-size: xx-small;
+        margin: none;
+        
+    }
+    .butt button{
+        background-color: #096666f8;
+        border-color: #096666f8;
+        color: white;
+        margin: 2px;
+        padding: 0%;
+    }
+    .appbar{
+        background-color: white;
+       
+    }
+    .appbar .bar{
+        margin-top: 50px;
+        line-height: 20px;
+    }
+
+}
+
+/* style={{backgroundColor:'white', marginTop:"20px"}} in line css */

@@ -1,0 +1,90 @@
+.topp{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.cardd{
+    height: 100%;
+    width: 50%;
+    padding-top: 25px;
+    padding-left: 50px;
+}
+
+.card2{
+    height: 100%;
+    width: 50%; 
+    padding-left: 60px;
+    padding-top: 50px;
+    
+}
+
+h1{
+    font-size: larger;
+    font-weight: normal;
+}
+h2{
+    font-size: large;
+    font-weight: normal;
+}
+
+.btn-product{
+    
+    margin-bottom: 30px;
+}
+.btn-product Button{
+    margin: 110px;
+    background-color: orangered;
+    color: white;
+}
+
+.btn-product Button:hover{
+    background-color: orange;
+}
+
+@media screen and (max-width: 480px){
+    .cardd{
+        padding-left: 0%;
+        
+    }
+    h1{
+        font-size: medium;
+    }
+    .card2{
+        width: 100%;
+    }
+    .cardd img{
+
+        width: 170%;
+        padding-left: 20px;
+    }
+    .btn-product Button{
+        font-size: xx-small;
+        width: 140px;
+        margin: 2px;
+        font-weight: bold;
+
+    }
+}
+
+.btn-product .orderBtn:hover{
+    background-color: rgb(121, 179, 6);
+}
+
+.btn-product .orderBtn{
+    background-color: green;
+}
+
+h3{
+    color: red;
+}
+
+
+
+
+
+/* in line css */
+/* 
+style={{ width: "300px", height: "60px", marginLeft: "10px", marginTop: "300px" }}
+style={{ width: "300px", height: "60px", marginLeft: "10px", marginTop: "300px" }} */

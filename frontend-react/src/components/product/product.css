@@ -1,0 +1,231 @@
+/* .ul{
+
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-content:center;
+    flex-wrap: wrap;
+}
+
+.li{
+    padding:10px;
+    width: 250px;
+    max-width:250px;
+    max-height: 500px;
+}
+
+.card{
+    width: 100%;
+    height:100%;
+    box-shadow: 5px 5px 10px #ccc ;
+    align-items:center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    margin-top: 30px;
+    background-color: azure;
+}
+.card >img {
+    width:100%;
+    height:50%;
+}
+.card article{
+    padding: 5px;
+}
+.card h2,p,article{
+    margin-top: 1px;
+}
+.card h2 {
+    font-size:14px;
+}
+.card p{
+    padding:3px;
+}
+
+.wc {
+    width:50%;
+    margin:auto;
+    text-align:center
+}
+
+.topp {
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.topp > div {
+    width: 50%;
+    margin: auto;
+    height: 400px;
+}
+.topp > div:nth-child(1){
+    width: 30%;
+    margin-left: 200px;
+}
+.cardd{
+    width: 80%;
+    height:100%;
+    box-shadow: 5px 5px 10px #ccc ;
+    align-items:center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    background-color: azure;
+    margin-right: 0;
+}
+.cardd >img {
+    width:100%;
+    height:50%;
+}
+.cardd article{
+    padding: 5px;
+}
+.cardd h2,p,article{
+    margin-top: 1px;
+}
+.cardd h2 {
+    font-size:14px;
+}
+.cardd p{
+    padding:3px;
+}
+
+.card2 {
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    background-color:azure;
+}
+.card2 div:first-child{
+    width: 50%;
+    margin: auto;
+    height: 100%;
+    background-color:blanchedalmond;
+    
+}
+.card2 h1,h2 {
+    margin-left: 20px;
+    margin-top:30px;
+} 
+.card2 div:nth-child(2) {
+    width: 40%;
+    margin: auto;
+    height: 100%;
+}
+
+.heading {
+    width: 40%;
+    height : 50px;
+    margin:auto;
+    text-align:center;
+    
+}
+
+.heading2 {
+    width: 60%;
+    height : 40px;
+    margin:auto;
+    text-align:center;
+}
+
+.mt {
+    margin-top: 160px;
+}
+.tb {
+    margin: auto;
+}
+.tb  Button {
+    margin-right: 20px;
+}
+.mt2 {
+    margin-top: 30px;
+} 
+ */
+
+.cardss img{
+    width: 90%;
+    height: 290px;
+    background-size: 100% 100%;
+
+}
+
+.cardss{
+    margin: 10px;
+   
+    text-align: center;
+    padding: 10px;
+    width: 350px;
+    height: 450px;
+}
+.cardss:hover{
+    box-shadow: 5px 5px 15px black;
+    padding: 36px;
+}
+.btnnn{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    padding: 10px;
+}
+
+.btnnn .btn{
+   background-color: green;
+   font-weight: bold;
+}
+.btnnn .btn:hover{
+    background-color: greenyellow;
+    color: black;
+}
+
+.btnnn .btn2:hover{
+    background-color: orange;
+    color: black;
+}
+.btnnn .btn2{
+    background-color: orangered;
+    left: 150px;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 480px){
+    .cardss img{
+        width: 90%;
+        height: 180px;
+    }
+    .cardss{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 50%;
+        width: 170px;
+        height: 280px;
+    }
+
+    .btnnn{
+        display: flex;
+        flex-direction: row;
+        margin: 0%;
+    }
+    .btnnn .btn2{
+        left: 40px;
+        font-size: xx-small;
+    }
+    .btnnn .btn{
+        
+        font-size: xx-small;
+    }
+    .name{
+        font-size: x-small;
+    }
+    .btnnn .btn:hover{
+        background-color: greenyellow;
+        color: black;
+    }
+    
+    .btnnn .btn2:hover{
+        background-color: orange;
+        color: black;
+    }
+}

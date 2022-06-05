@@ -1,0 +1,63 @@
+th img{
+    height: 100px;
+    width: 90px;
+}
+
+th{
+    width: 300px;
+    height: 130px;
+}
+.callme{
+    display: flex;
+    flex-direction: row;
+}
+
+.cart-card{
+    height: 300px;
+    width: 600px;
+    background-color: brown;
+    text-align: center;
+    margin-top: 110px;
+    color: white;
+    font-size: larger;
+    font-weight: bolds;
+}
+
+.cart-card button{
+    background-color: white;
+    border-color: black;
+    width: 300px;
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
+}
+.cart-card h1{
+    margin-top: 80px;
+    color: rgb(255, 230, 0);
+}
+
+.heading h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rebeccapurple;
+    text-align: center;
+}
+
+@media screen and (max-width: 480px){
+    .callme{
+        display: block;
+    }
+    .cart-card{
+        font-size: medium;
+        width: 100%;
+        margin: 10px;
+    }
+    .cart-card h1{
+        
+        padding-top: 80px;
+    }
+    .bhim{
+        font-size: small;
+        padding: 10px;
+    }
+}
