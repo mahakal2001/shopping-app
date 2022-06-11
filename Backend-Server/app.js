@@ -4,6 +4,7 @@ const cors = require('cors');
 const router = require('./Routes/Product-Routes');
 const router1 = require('./Routes/AddProduct-route')
 var bodyParser = require('body-parser');
+const path = require('path');
 
 
 
@@ -24,3 +25,4 @@ mongoose.connect("mongodb+srv://bhimcharan:bhimbhakta@cluster0.229gv.mongodb.net
 
 app.use("/products", router);
 app.use("/cartproducts", router1)
+app.use(express.static(path.join(__dirname + "/public")))
