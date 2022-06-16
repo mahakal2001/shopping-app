@@ -1,11 +1,10 @@
 import React from 'react';
-import {Button} from "@mui/material";
 import './cartproduct.css';
-import {Link} from 'react-router-dom';
+
 
 
 const CartProduct = (props) => {
-    const { name, category,brand,price,image,desc } = props.product;
+    const { name,price,image } = props.product;
     return (
       <div className="card-product">
         
@@ -20,10 +19,6 @@ const CartProduct = (props) => {
                       
             </tr>
         </table>
-          
-          
-          
-          
           
       </div>
     )

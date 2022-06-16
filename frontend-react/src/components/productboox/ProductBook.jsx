@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useParams, useNavigate, NavLink } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import './productboox.css';
 import { Button } from '@mui/material';
@@ -33,6 +33,7 @@ const ProductBook = () => {
         alert("Product Successfully Booked")
         sendRequest().then(() => history("/cart"))
     }
+
 
     return (
         <div className="topp">

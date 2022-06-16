@@ -4,6 +4,8 @@ import CartProduct from "./cartproduct/CartProduct.jsx"
 import "./cartproduct/cartproduct.css"
 
 
+
+
 const URL = "http://localhost:5000/cartproducts";
 
 const fetchHandler = async () => {
@@ -33,13 +35,13 @@ const Cart = () => {
             </div>
           ))}
 
-          
+
         </div>
         <div className="cart-card">
-            <h1>Total Amaout</h1>
-            <h2>$00</h2>
-            <button>CASH ON DELIVERU</button>
-          </div>
+          <h1>Total Amaout</h1>
+          <h2>$00</h2>
+          <button>Order Now</button>
+        </div>
       </div>
 
 

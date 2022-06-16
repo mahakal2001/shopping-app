@@ -1,11 +1,10 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {NavLink} from "react-router-dom";
-import {AppBar,Typography, Toolbar,Tabs, Tab,Button} from '@mui/material';
-import LocalHospitalIcon from '@mui/icons-material/LocalHospital';
+import {AppBar, Toolbar,Tabs, Tab} from '@mui/material';
 import "./headers.css"
 
 const Headers = () => {
-    const [value, setValue]= useState({});
+    // const [value, setValue]= useState({});
   return (
     <div>
         <AppBar className='navbar'>

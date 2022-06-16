@@ -10,11 +10,11 @@ const Footer = () => {
       <div className="item">
         <div className="card">
           <h2 className="motto">
-            OH YES, WE DID.THE GoFooD , WELL BAKED SLICE OF PIZZA.
+            OH YES, WE DID.THE GoShopping , WELL NEW BANDS OF SOPPING ITEMS.
           </h2>
         </div>
         <div className="card">
-          <h1 className="title">FIND OUR RESTAURANTS</h1>
+          <h1 className="title">FIND OUR GOSHOPPING SHOPS</h1>
           <p className="text">
             1654 Sold Leck Road #304.
             <br /> Kolkata, 70001
